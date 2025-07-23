@@ -1,12 +1,11 @@
 [project]
-name = "cams-biometrics"
+name = "cams-biometrics-mcp" 
 version = "0.1.0"
-description = "Cams Biometrics Tools"
 dependencies = [
     "fastmcp>=0.1.0",
     "httpx>=0.25.0"
+    # Add other dependencies your cams_biometrics.py needs
 ]
 
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+[project.scripts]
+start = "cams_biometrics:main"  # Points to your main function
