@@ -1,7 +1,7 @@
 [project]
-name = "weather-mcp"
+name = "cams-biometrics"
 version = "0.1.0"
-description = "Weather MCP Server"
+description = "Cams Biometrics Tools"
 dependencies = [
     "fastmcp>=0.1.0",
     "httpx>=0.25.0"
