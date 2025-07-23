@@ -1,0 +1,12 @@
+[project]
+name = "weather-mcp"
+version = "0.1.0"
+description = "Weather MCP Server"
+dependencies = [
+    "fastmcp>=0.1.0",
+    "httpx>=0.25.0"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
